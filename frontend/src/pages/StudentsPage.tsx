@@ -1,36 +1,20 @@
-import { useEffect, useState } from 'react';
-import { Student } from '../api/students';
-import StudentForm from './StudentsForm';
+import { useListStudentsQuery, useCreateStudentMutation } from "../api/students";
+import StudentForm from "../components/StudentForm";
 
 export default function StudentsPage() {
-  const [students, setStudents] = useState<Student[]>([]);
+  const { data: students = [], isLoading } = useListStudentsQuery();
+  const [createStudent] = useCreateStudentMutation();
 
-  // Buscar alunos
-  useEffect(() => {
-    fetch('http://localhost:5007/api/v1/students')
-      .then(res => res.json())
-      .then(data => setStudents(data));
-  }, []);
-
-  // Criar aluno
-  const handleCreate = async (student: Partial<Student>) => {
-    const res = await fetch('http://localhost:5007/api/v1/students', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(student),
-    });
-    const newStudent = await res.json();
-    setStudents(prev => [...prev, newStudent]);
-  };
+  if (isLoading) return <p>Carregando...</p>;
 
   return (
-    <div style={{ padding: 20 }}>
+    <div>
       <h1>Students</h1>
-      <StudentForm onSubmit={handleCreate} />
+      <StudentForm onSubmit={(data) => createStudent(data)} />
       <ul>
-        {students.map(s => (
+        {students.map((s) => (
           <li key={s.id}>
-            {s.first_name} {s.last_name} - {s.email} - {s.class}
+            {s.first_name} {s.last_name} - {s.email} - {s.class_name}
           </li>
         ))}
       </ul>

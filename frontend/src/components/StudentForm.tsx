@@ -2,7 +2,8 @@ import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { TextField, Button, Box } from '@mui/material';
-import { Student } from '../api/students';
+import type { Student } from '../api/students';
+
 
 // Validação com Zod
 const schema = z.object({
