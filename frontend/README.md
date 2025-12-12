@@ -40,3 +40,11 @@ Certifique-se de que o backend esteja rodando antes de iniciar o frontend.
 
 👩‍💻 Autora
 Projeto desenvolvido por Gislaine como parte de um skill test.
+
+
+## Resultado do Frontend  painel crud api
+
+
+<img width="592" height="547" alt="image" src="https://github.com/user-attachments/assets/4e57a703-6eaf-441c-8976-9f65d97ee319" />
+
+
