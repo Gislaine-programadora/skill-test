@@ -44,5 +44,5 @@ Projeto desenvolvido por Gislaine como parte de um skill test.
 
 ## Resultado do Frontend  painel crud api
 
-<img width="656" height="547" alt="image" src="https://github.com/user-attachments/assets/a0702fb7-8f24-413c-bf43-da8959650b35" />
+URL link  https://github.com/Gislaine-programadora/skill-test/issues/1#issue-3724452666
 
