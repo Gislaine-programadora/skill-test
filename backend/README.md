@@ -88,6 +88,29 @@ Projeto desenvolvido por Gislaine como parte de um skill test.
 ---
  
 
+resultado da api backend rodando no terminal curl
+
+Gislaine@gislaine-desenvolvedora MINGW64 ~/Desktop/coingbit (main)
+$ curl http://localhost:5007/api/v1/students
+[{"id":1,"first_name":"Ana","last_name":"Silva","email":"ana.silva@example.com","class":"3A","dob":null,"gender":null,"phone":null,"address":null,"created_at":"2025-12-11 01:36:35","updated_at":"2025-12-11 
+01:54:22"},{"id":2,"first_name":"Maria","last_name":"Souza","email":"maria@example.com","class":"2B","dob":"2011-03-15","gender":"female","phone":"888888888","address":"Rua B, 456","created_at":"2025-12-11 
+01:53:52","updated_at":"2025-12-11 01:53:52"}]
 
 
-
+para navegador http://localhost:5007/api/v1/students
+
+baixe o repositorio 
+
+para rodar  cd backend  e depois  npm start  
+
+http://localhost:5007/api/v1/students
+
+resultado  format  .json
+
+[{"id":1,"first_name":"Ana","last_name":"Silva","email":"ana.silva@example.com","class":"3A","dob":null,"gender":null,"phone":null,"address":null,"created_at":"2025-12-11 01:36:35","updated_at":"2025-12-11 01:54:22"},{"id":2,"first_name":"Maria","last_name":"Souza","email":"maria@example.com","class":"2B","dob":"2011-03-15","gender":"female","phone":"888888888","address":"Rua B, 456","created_at":"2025-12-11 01:53:52","updated_at":"2025-12-11 01:53:52"}]
+
+
+
+
+
+
