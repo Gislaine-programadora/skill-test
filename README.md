@@ -64,7 +64,7 @@ npm run dev
 - O banco SQLite é armazenado em seed_db/school.db.
 - O backend deve estar rodando antes de iniciar o frontend.
 
-<img width="656" height="547" alt="painel-student-frontend" src="https://github.com/user-attachments/assets/e54a6d76-44e9-4c1b-9ef5-d3e48a308db0" />
+<img width="656" height="547" alt="painel-student-frontend" src="https://github.com/user-attachments/assets/6dba2e81-412f-4ae9-8b32-464e04f3a65e" />
 
 
 👩‍💻 Autora
