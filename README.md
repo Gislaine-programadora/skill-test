@@ -68,6 +68,7 @@ npm run dev
 Projeto desenvolvido por Gislaine como parte de um skill test.
 
 
+<img width="656" height="547" alt="painel-student-frontend" src="https://github.com/user-attachments/assets/a11a242d-d91e-42ce-a661-c49b672fff85" />
 
 
 
